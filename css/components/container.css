@@ -1,0 +1,37 @@
+.container {
+   width: 900px;
+   margin: 5px auto;
+}
+
+.container p{
+    text-align: justify;
+}
+
+.body{
+   color:ff5c67;
+}
+
+#list {
+   margin-top: 60px;
+}
+
+
+@media(max-width: 960px) {
+   /*for a screen <960px, this css will be read */
+   .container {
+      width: 700px;
+   }
+}
+@media(max-width: 720px) {
+   /*for a screen <720px, this css will be read */
+   .container {
+      width: 500px;
+   }
+}
+@media(max-width: 540px) {
+   /*for a screen <540px, this css will be read */
+   .container {
+      width: 300px;
+   }
+}
+
